@@ -105,9 +105,9 @@ Pod::Spec.new do |s|
  end
  
  s.subspec 'fb_sdk' do |fb|
-     fb.dependency 'FBSDKCoreKit','5.8.0'
-     fb.dependency 'FBSDKShareKit','5.8.0'
-     fb.dependency 'FBSDKLoginKit','5.8.0'
+     fb.dependency 'FBSDKCoreKit'
+     fb.dependency 'FBSDKShareKit'
+     fb.dependency 'FBSDKLoginKit'
      fb.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) FACEBOOK_ENABLED'}
  end
  
