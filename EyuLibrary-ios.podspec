@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
  
  s.subspec '3rd' do |a|
      a.dependency 'SVProgressHUD'
-     a.dependency 'AppsFlyerFramework'
+ #   a.dependency 'AppsFlyerFramework'
      a.dependency 'FFToast'
      a.dependency 'UMCAnalytics'
      #a.vendored_frameworks = ['EyuLibrary-ios/Classes/framework/UnityAds.framework','EyuLibrary-ios/Classes/framework/BUAdSDK.framework']
